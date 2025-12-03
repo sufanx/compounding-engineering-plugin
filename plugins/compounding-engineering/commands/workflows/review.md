@@ -54,18 +54,17 @@ Ensure that the code is ready for analysis (either in worktree or on current bra
 
 Run ALL or most of these agents at the same time:
 
-1. Task kieran-rails-reviewer(PR content)
-2. Task dhh-rails-reviewer(PR title)
-3. If turbo is used: Task rails-turbo-expert(PR content)
-4. Task git-history-analyzer(PR content)
-5. Task dependency-detective(PR content)
-6. Task pattern-recognition-specialist(PR content)
-7. Task architecture-strategist(PR content)
-8. Task code-philosopher(PR content)
-9. Task security-sentinel(PR content)
-10. Task performance-oracle(PR content)
-11. Task devops-harmony-analyst(PR content)
-12. Task data-integrity-guardian(PR content)
+1. Task java-code-reviewer(PR content)
+2. Task spring-boot-reviewer(PR title)
+3. Task git-history-analyzer(PR content)
+4. Task dependency-detective(PR content)
+5. Task pattern-recognition-specialist(PR content)
+6. Task architecture-strategist(PR content)
+7. Task code-philosopher(PR content)
+8. Task security-sentinel(PR content)
+9. Task performance-oracle(PR content)
+10. Task devops-harmony-analyst(PR content)
+11. Task data-integrity-guardian(PR content)
 
 </parallel_tasks>
 
@@ -306,7 +305,7 @@ Examples:
 - `p2` - Important (should fix, architectural/performance)
 - `p3` - Nice-to-have (enhancements, cleanup)
 
-**Tagging:** Always add `code-review` tag, plus: `security`, `performance`, `architecture`, `rails`, `quality`, etc.
+**Tagging:** Always add `code-review` tag, plus: `security`, `performance`, `architecture`, `java`, `spring-boot`, `quality`, etc.
 
 #### Step 3: Summary Report
 
@@ -342,7 +341,8 @@ After creating all todo files, present comprehensive summary:
 
 ### Review Agents Used:
 
-- kieran-rails-reviewer
+- java-code-reviewer
+- spring-boot-reviewer
 - security-sentinel
 - performance-oracle
 - architecture-strategist

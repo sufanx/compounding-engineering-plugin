@@ -219,7 +219,7 @@ If you see this, the script will ask if you want to switch to it instead.
 Switch out of the worktree first, then cleanup:
 
 ```bash
-cd /Users/kieranklaassen/rails/cora
+cd /path/to/your/project
 bash .claude/skills/git-worktree/scripts/worktree-manager.sh cleanup
 ```
 

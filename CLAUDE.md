@@ -363,6 +363,19 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 _This section captures important learnings as we work on this repository._
 
+### 2025-12-03: Migrated from Ruby/Rails to Java/Spring Boot
+
+Replaced all Ruby/Rails-specific components with Java/Spring Boot equivalents. This was a major breaking change (v3.0.0).
+
+**Changes made:**
+- Removed `kieran-rails-reviewer` and `dhh-rails-reviewer`, added `java-code-reviewer` and `spring-boot-reviewer`
+- Removed Ruby skills (`andrew-kane-gem-writer`, `dhh-ruby-style`, `dspy-ruby`), added Java skills (`maven-library-writer`, `spring-boot-style`)
+- Updated `lint` agent to support Java linting tools (Checkstyle, SpotBugs, Spotless)
+- Updated all keywords from `rails`, `ruby` to `java`, `spring-boot`, `maven`
+- Final counts: 24 agents, 19 commands, 10 skills
+
+**Learning:** When making major framework changes, ensure all related components are updated consistently. Use the checklist in this file to verify counts match across all configuration files.
+
 ### 2024-11-22: Added gemini-imagegen skill and fixed component counts
 
 Added the first skill to the plugin and discovered the component counts were wrong (said 15 agents, actually had 17). Created a comprehensive checklist for updating the plugin to prevent this in the future.

@@ -6,9 +6,9 @@ AI-powered development tools that get smarter with every use. Make each unit of 
 
 | Component | Count |
 |-----------|-------|
-| Agents | 23 |
-| Commands | 16 |
-| Skills | 11 |
+| Agents | 24 |
+| Commands | 19 |
+| Skills | 10 |
 | MCP Servers | 2 |
 
 ## Agents
@@ -22,8 +22,8 @@ Agents are organized into categories for easier discovery.
 | `architecture-strategist` | Analyze architectural decisions and compliance |
 | `code-simplicity-reviewer` | Final pass for simplicity and minimalism |
 | `data-integrity-guardian` | Database migrations and data integrity |
-| `dhh-rails-reviewer` | Rails review from DHH's perspective |
-| `kieran-rails-reviewer` | Rails code review with strict conventions |
+| `java-code-reviewer` | Java code review with strict best practices |
+| `spring-boot-reviewer` | Spring Boot review focusing on conventions |
 | `kieran-python-reviewer` | Python code review with strict conventions |
 | `kieran-typescript-reviewer` | TypeScript code review with strict conventions |
 | `pattern-recognition-specialist` | Analyze code for patterns and anti-patterns |
@@ -53,7 +53,7 @@ Agents are organized into categories for easier discovery.
 |-------|-------------|
 | `bug-reproduction-validator` | Systematically reproduce and validate bug reports |
 | `every-style-editor` | Edit content to conform to Every's style guide |
-| `lint` | Run linting and code quality checks on Ruby and ERB files |
+| `lint` | Run linting and code quality checks on Java source files |
 | `pr-comment-resolver` | Address PR comments and implement fixes |
 | `spec-flow-analyzer` | Analyze user flows and identify gaps in specifications |
 
@@ -61,7 +61,7 @@ Agents are organized into categories for easier discovery.
 
 | Agent | Description |
 |-------|-------------|
-| `ankane-readme-writer` | Create READMEs following Ankane-style template for Ruby gems |
+| `ankane-readme-writer` | Create READMEs following documentation best practices |
 
 ## Commands
 
@@ -99,11 +99,10 @@ Core workflow commands (use the short form for autocomplete):
 
 | Skill | Description |
 |-------|-------------|
-| `andrew-kane-gem-writer` | Write Ruby gems following Andrew Kane's patterns |
+| `maven-library-writer` | Write Java libraries following best practices for Maven projects |
+| `spring-boot-style` | Write Java/Spring Boot code following modern conventions |
 | `compound-docs` | Capture solved problems as categorized documentation |
 | `create-agent-skills` | Expert guidance for creating Claude Code skills |
-| `dhh-ruby-style` | Write Ruby/Rails code in DHH's 37signals style |
-| `dspy-ruby` | Build type-safe LLM applications with DSPy.rb |
 | `frontend-design` | Create production-grade frontend interfaces |
 | `skill-creator` | Guide for creating effective Claude Code skills |
 
@@ -154,7 +153,7 @@ Core workflow commands (use the short form for autocomplete):
 - `resolve-library-id` - Find library ID for a framework/package
 - `get-library-docs` - Get documentation for a specific library
 
-Supports 100+ frameworks including Rails, React, Next.js, Vue, Django, Laravel, and more.
+Supports 100+ frameworks including Spring Boot, React, Next.js, Vue, Django, Laravel, and more.
 
 MCP servers start automatically when the plugin is enabled.
 
