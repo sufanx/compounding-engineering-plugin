@@ -106,14 +106,16 @@ Select how comprehensive you want the issue to be, simpler is mostly better.
 
 ## MVP
 
-### test.rb
+### UserService.java
 
-```ruby
-class Test
-  def initialize
-    @name = "test"
-  end
-end
+```java
+public class UserService {
+    private final String name;
+    
+    public UserService() {
+        this.name = "test";
+    }
+}
 ```
 
 ## References
@@ -326,13 +328,11 @@ Apply best practices for clarity and actionability, making the issue easy to sca
 # Good example with syntax highlighting and line references
 ```
 
-```ruby
-# app/services/user_service.rb:42
-def process_user(user)
-
-# Implementation here
-
-end
+```java
+// src/main/java/com/example/service/UserService.java:42
+public void processUser(User user) {
+    // Implementation here
+}
 ```
 ````
 
