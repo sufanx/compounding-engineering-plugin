@@ -462,20 +462,20 @@ Documentation is successful when ALL of the following are true:
 4. **Generate filename:** `n-plus-one-brief-generation-BriefSystem-20251110.md`
 5. **Validate YAML:**
    ```yaml
-   module: Brief System
+   module: User Management
    date: 2025-11-10
    problem_type: performance_issue
-   component: rails_model
+   component: repository
    symptoms:
-     - "N+1 query when loading email threads"
-     - "Brief generation taking >5 seconds"
+     - "N+1 query when loading user profiles"
+     - "API response time >5 seconds"
    root_cause: missing_include
    severity: high
-   tags: [n-plus-one, eager-loading, performance]
+   tags: [n-plus-one, eager-loading, performance, jpa]
    ```
    ✅ Valid
 6. **Create documentation:**
-   - `docs/solutions/performance-issues/n-plus-one-brief-generation-BriefSystem-20251110.md`
+   - `docs/solutions/performance-issues/n-plus-one-user-profiles-UserManagement-20251110.md`
 7. **Cross-reference:** None needed (no similar issues)
 
 **Output:**
