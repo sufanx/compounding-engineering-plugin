@@ -5,6 +5,27 @@ All notable changes to the compounding-engineering plugin will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2025-12-03
+
+### Changed - BREAKING
+
+This is a **major version change** that replaces Ruby/Rails support with Java/Spring Boot support.
+
+**Migration from Ruby to Java:**
+- Replaced `kieran-rails-reviewer` with `java-code-reviewer` - strict Java best practices reviewer
+- Replaced `dhh-rails-reviewer` with `spring-boot-reviewer` - Spring Boot conventions reviewer
+- Updated `lint` agent to support Java linting tools (Checkstyle, SpotBugs, Spotless)
+- Replaced `andrew-kane-gem-writer` skill with `maven-library-writer` - Maven library creation patterns
+- Replaced `dhh-ruby-style` skill with `spring-boot-style` - Modern Spring Boot coding patterns
+- Removed `dspy-ruby` skill (Ruby-specific DSPy framework)
+- Updated plugin keywords from `rails`, `ruby` to `java`, `spring-boot`, `maven`
+- Updated all documentation to use Java/Spring Boot examples
+
+**Component counts:**
+- Agents: 24 (same count, replaced Ruby agents with Java agents)
+- Commands: 19 (unchanged)
+- Skills: 10 (reduced from 11 due to removing dspy-ruby)
+
 ## [2.8.3] - 2025-11-29
 
 ### Fixed
