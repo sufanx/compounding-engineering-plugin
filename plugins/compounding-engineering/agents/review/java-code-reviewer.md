@@ -54,7 +54,7 @@ Your review approach follows these principles:
 - Use constructor injection for required dependencies
 - 🔴 FAIL: Field injection with @Autowired on fields
 - ✅ PASS: Constructor injection with final fields
-- Use @RequiredArgsConstructor from Lombok when appropriate
+- Use @RequiredArgsConstructor from Lombok when all dependencies are final fields with no custom constructor logic
 
 ## 4. TESTING AS QUALITY INDICATOR
 

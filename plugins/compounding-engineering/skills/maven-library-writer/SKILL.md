@@ -153,6 +153,13 @@ public class Library {
         }
         
         public Library build() {
+            // Validate required parameters
+            if (timeout == null || timeout.isNegative()) {
+                throw new IllegalArgumentException("timeout must be positive");
+            }
+            if (retryCount < 0) {
+                throw new IllegalArgumentException("retryCount must be non-negative");
+            }
             return new Library(this);
         }
     }

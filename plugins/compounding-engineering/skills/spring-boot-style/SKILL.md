@@ -219,6 +219,7 @@ public class Message {
 ```java
 package com.company.api.dto;
 
+// Note: Spring Boot 3.x uses Jakarta EE (jakarta.validation.*) instead of javax.validation.*
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
